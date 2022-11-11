@@ -1,0 +1,127 @@
+/* Colors and fonts */
+
+body {
+	background: rgb(292, 271, 243);
+	color: #470D21;
+	font-family: Lora;
+	font-size: 16px;
+	font-weight: lighter;
+	text-align: center;
+}
+
+h1 {
+	color: rgb(242, 221, 193);
+	background-color: rgb(153, 167, 153);
+	font-family: Pacifico;
+	font-size: 52;
+	line-height: 3;
+}
+
+
+h2 {
+	color: rgb(104, 84, 84);
+	background-color: rgb(242, 221, 193);
+	font-family: Pacifico;
+	font-size: 38;
+	font-weight: lighter;
+	line-height: 2;
+}
+
+h3 {
+	color: rgb(103, 117, 103);
+	background-color: rgb(211, 228, 205);
+	font-family: Pacifico;
+	font-size: 40;
+	font-weight: normal;
+	line-height: 2.2;
+}
+
+
+a{
+	text-decoration: none;
+	font-family: Satisfy;
+	color: rgb(166, 134, 125);
+	text-align: center;
+}
+
+p{margin-bottom: 30px;}
+
+a:hover {
+	color: rgb(200,200,200);
+}
+
+#mayrap {
+  	width: 30%;
+  	border-radius: 50%;
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	}
+
+ol.countries{
+	text-align: justify;
+}
+
+
+ul.inline {
+	text-align: center;
+	display:  block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	padding:  20px 20px;
+}
+
+}
+
+.text-center {
+	text-align: center;
+}
+
+.container {
+	width: 850px;
+	margin: 40px auto;
+}
+
+.card-white {
+	box-shadow: 0px 10px 20px rgb(0 0 0 / 5%);
+    background: white;
+    padding: 30px;
+    margin: 50px;
+}
+
+@media(max-width: 800px) {
+	.container{
+		width: 650px}
+}
+
+@media(max-width: 500px) {
+	.container{
+		width: 450px}
+}
+
+
+.btn {  
+	background-color: rgb(211, 228, 205);  
+	padding: 13px;  
+	border-radius: 4px;  
+	color: rgb(104, 84, 84);  
+}
+
+.count {
+	display: flex;
+}
+.row {
+  	flex: 33.3%;
+  	padding: 5px}
+
+.btn-dark {  
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: rgb(153, 167, 153);  
+	padding: 13px 17px;  
+	border-radius: 4px;  
+	color: rgb(242, 221, 193);  
+}
+
+
+
